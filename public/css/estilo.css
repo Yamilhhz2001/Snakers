@@ -199,3 +199,8 @@ button:hover{
     color:black;
 }
 
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
