@@ -15,6 +15,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    max-width: 1200px;
    
 
 
@@ -22,6 +23,7 @@ body{
 body nav{
     padding-top:30px;
     padding-bottom:30px;
+    
 }
 body nav ul li{
     display:inline-block;
@@ -101,14 +103,15 @@ body nav ul li:hover{
     border-radius:  100px;
 }
 #inicio{
-    background-image:url(fondos/fondo2.jpg);
+    background-image:url(fondos/fondohome.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
 }
 
 #ubicacion{
-    background-image:url(fondos/fondo2.jpg);
+    background-image:url(fondos/fondohome.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -128,7 +131,7 @@ body nav ul li:hover{
 
 }
 #Desechables{
-    background-image:url(fondos/desechables.jpg);
+    background-image:url(fondos/desechablesfondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -203,4 +206,46 @@ a:-webkit-any-link {
     color: white;
     cursor: pointer;
     text-decoration: none;
+}
+@media screen and (max-width:500px){
+    #inicio nav {
+        margin-left: 0px;
+        width:200px;
+    }
+    #inicio nav ul {
+        width:450px;
+    }
+    #nosotros img{
+        display:none;
+    }
+    #nosotros div {
+        margin-left: 100px;
+    }
+    #mapa{
+        width:450px;
+        height: 450px;
+    }
+
+    
+}
+@media screen and (max-width:360px){
+    #inicio nav {
+        margin-left: 0px;
+        width:100px;
+    }
+    #inicio nav ul {
+        width:360px;
+    }
+    #nosotros img{
+        display:none;
+    }
+    #nosotros div {
+        margin-left: 25px;
+    }
+    #mapa{
+        width:350px;
+        height: 350px;
+    }
+
+    
 }

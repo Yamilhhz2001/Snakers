@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Koulen&display=swap');
+
+img{
+    width:300px;
+    height: 300px;
+}
+body{
+    text-align:center;
+    background-color:black;
+    font-family: 'Koulen', cursive;
+    
+}
+table{
+    margin-left:100px;
+    border:2px solid black;
+    background-color:white;
+}
+#titulo {
+    color:white;
+    background-color:rgba(69, 67, 67, 0.842);
+}
