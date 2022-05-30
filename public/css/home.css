@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
 #nav{
-    height:250px;
+    height:150px;
     font-family: 'Libre Bodoni', serif;
     border-bottom: 10px solid #C0C0C0;
     border-style: double;
@@ -11,6 +11,15 @@ body{
     font-family: 'Libre Bodoni', serif;
 
 }
+#botonmenu{
+    margin-left: 650px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+
+    border: 1px solid white;
+}
+
 
 #mapa{
     margin-top:100px;
@@ -123,8 +132,29 @@ body {
     margin-left: 25px;
 }
 
+#opc li{
+    display:inline-block;
+    margin-left:30px;
+
+   
+}
+#opc li a {
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+    font-family: 'Libre Bodoni', serif;
+}
+#opc li a:hover{
+    background-color:#C0C0C0;
+    color:black;
+
+}
 #opc{
-    display:none;
+    margin-left: 225px;
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+    border-bottom: 2px solid white;
+    width:570px;
 }
 
 #marcas:hover ul{
@@ -147,6 +177,22 @@ body {
 
 
 @media (max-width:414px) {
+    #dropdown{
+        font-size:12px;
+    }
+    #menutodos{
+        margin-left:0px;
+        margin-top: 30px;;
+    }
+    #menutodos tr td button{
+        width:85px;
+    }
+    #menutodos tr td button a{
+        font-size: 12px;;
+    }
+    #botonmenu{
+        margin-left:20px;
+    }
     .card{
         margin-left:65px;
     }
@@ -156,7 +202,7 @@ body {
         height:300px;
     }
     #nav{
-        height:400px;
+        height:150px;
     }
     
     .container-fluid{
@@ -167,14 +213,16 @@ body {
 
     }
     #menudearriba{
-        width:150px;
-        height:190px;
+        width:300px;
+        height:100px;
         border:3px solid #C0C0C0;
         margin-top: 20px;
-        margin-left: 120px;
+        margin-left: 50px;
         text-align:center;
-        
-    
+        padding: 0px ;
+    }
+    #menudearriba li{
+       text-align: center;
     }
     #menudearriba a {
         text-decoration: none;
@@ -184,6 +232,20 @@ body {
     }
     #homenav{
         margin-left: 0px;
+    }
+
+    #opc{
+        margin-left: 30px;
+        margin-top: 250px;
+        border-left: 2px white solid;
+        border-right: 2px white solid;
+        border-bottom: 2px solid white;
+        width:350px;
+    }
+    #Destacados h1{
+       
+        font-size:45px;
+        padding-top:20px;
     }
 
 

@@ -10,6 +10,9 @@
     border-bottom: 10px solid #C0C0C0;
     border-style: double;
 }
+#menutodos{
+    margin-left: 400px;
+}
 
 
 body{
@@ -62,7 +65,7 @@ body{
     color:white;
 }
 .btn-group{
-    margin-left:110px;
+    margin-left:85px;
 }
 #homenav{
     margin-left: 25px;
@@ -85,8 +88,29 @@ body{
     display: inline-block;
 }
 
+#opc li{
+    display:inline-block;
+    margin-left:30px;
+
+   
+}
+#opc li a {
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+    font-family: 'Libre Bodoni', serif;
+}
+#opc li a:hover{
+    background-color:#C0C0C0;
+    color:black;
+
+}
 #opc{
-    display:none;
+    margin-left: 225px;
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+    border-bottom: 2px solid white;
+    width:570px;
 }
 
 #marcas:hover ul{
@@ -106,3 +130,60 @@ body{
     display:block;
     padding: 0px ;
 }
+
+@media (max-width:414px) {
+   
+    #nav{
+        height:250px;
+    }
+    #dropdown{
+        font-size:12px;
+    }
+    #menutodos{
+        margin-left:0px;
+        margin-top: 30px;;
+    }
+    #menutodos tr td button{
+        width:85px;
+    }
+    #menutodos tr td button a{
+        font-size: 12px;;
+    }
+    #menudearriba{
+        width:300px;
+        height:100px;
+        border:3px solid #C0C0C0;
+        margin-top: 20px;
+        margin-left: 50px;
+        text-align:center;
+        padding: 0px ;
+    }
+    #menudearriba li{
+       text-align: center;
+    }
+    #menudearriba a {
+        text-decoration: none;
+        color:white;
+        font-size:15px;
+        text-align:center;
+    }
+    #homenav{
+        margin-left: 0px;
+    }
+
+    #opc{
+        margin-left: 30px;
+        margin-top: 50px;
+        border-left: 2px white solid;
+        border-right: 2px white solid;
+        border-bottom: 2px solid white;
+        width:350px;
+    }
+    #titulocat{
+        font-size:70px;
+    }
+
+
+
+}
+
