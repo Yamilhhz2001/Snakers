@@ -20,6 +20,7 @@ body{
     background-attachment: fixed;
 
 }
+
 #menudearriba{
     width:600px;
     height:50px;
@@ -27,24 +28,12 @@ body{
     border-style: double;
     margin-top: 5px;
     margin-left: 300px;
-    
-
-}
-#menudearriba{
-    width:550px;
-    height:50px;
-    border:3px solid #C0C0C0;
-    border-style: double;
-    margin-top: 5px;
-    margin-left: 300px;
-    
-
 }
 #menudearriba a {
     text-decoration: none;
-    display: inline-block;
     color:white;
     font-size:18px;
+    font-family: 'Libre Bodoni', serif;
 }
 #menudearriba a:hover{
     background-color:#C0C0C0;
@@ -90,4 +79,30 @@ body{
     border-top: 5px solid #C0C0C0 ;
     border-style: double;
 
+}
+
+#menudearriba li{
+    display: inline-block;
+}
+
+#opc{
+    display:none;
+}
+
+#marcas:hover ul{
+    display:block;
+    position: absolute;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    background-color:rgb(0, 0, 0)
+}
+
+#marcas ul li a{
+    color: rgb(255, 254, 254);
+}
+
+#marcas ul li{
+    display:block;
+    padding: 0px ;
 }

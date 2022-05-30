@@ -107,9 +107,11 @@ body {
     
 
 }
+#menudearriba li{
+    display: inline-block;
+}
 #menudearriba a {
     text-decoration: none;
-    display: inline-block;
     color:white;
     font-size:18px;
 }
@@ -119,6 +121,28 @@ body {
 }
 #homenav{
     margin-left: 25px;
+}
+
+#opc{
+    display:none;
+}
+
+#marcas:hover ul{
+    display:block;
+    position: absolute;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    background-color:rgb(0, 0, 0)
+}
+
+#marcas ul li a{
+    color: rgb(255, 254, 254);
+}
+
+#marcas ul li{
+    display:block;
+    padding: 0px ;
 }
 
 
@@ -161,5 +185,6 @@ body {
     #homenav{
         margin-left: 0px;
     }
+
 
 }
